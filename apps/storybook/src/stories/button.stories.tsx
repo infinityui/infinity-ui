@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button } from '@infinity-ui/components';
+import { Button } from '@dgstihler/components';
 import { Bookmark } from 'lucide-react';
 
 const meta = {

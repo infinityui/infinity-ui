@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>@infinity-ui/components</strong>
+  <strong>@dgstihler/components</strong>
 </p>
 
 <p align="center">
@@ -18,11 +18,11 @@
 ## Quick Start
 
 ```bash
-npm install @infinity-ui/components
+npm install @dgstihler/components
 ```
 
 ```tsx
-import { Button, Input, Select, Field } from '@infinity-ui/components'
+import { Button, Input, Select, Field } from '@dgstihler/components'
 ```
 
 ---

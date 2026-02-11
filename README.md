@@ -56,7 +56,7 @@ infinity-ui/
 │               └── themes.css        # Tailwind v4 theme + @source
 │
 └── libs/
-    └── components/                   # @infinity-ui/components
+    └── components/                   # @dgstihler/components
         ├── index.ts                  # Public API exports
         ├── shared/                   # Field (universal form wrapper)
         │   ├── field.tsx

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Autocomplete, Field } from '@infinity-ui/components'
+import { Autocomplete, Field } from '@dgstihler/components'
 
 const meta = {
 	title: 'Components/Autocomplete',

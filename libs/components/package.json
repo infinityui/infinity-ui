@@ -1,5 +1,5 @@
 {
-  "name": "@infinity-ui/components",
+  "name": "@dgstihler/components",
   "version": "1.0.0",
   "description": "A compound-first React component library built with React 19, TypeScript, Tailwind CSS v4, and Base UI.",
   "license": "MIT",

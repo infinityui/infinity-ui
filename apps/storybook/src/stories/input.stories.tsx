@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Input, Field } from '@infinity-ui/components'
+import { Input, Field } from '@dgstihler/components'
 
 const meta = {
 	title: 'Components/Input',

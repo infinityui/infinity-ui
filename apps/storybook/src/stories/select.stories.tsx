@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Select, Field } from '@infinity-ui/components'
+import { Select, Field } from '@dgstihler/components'
 
 const meta = {
 	title: 'Components/Select',
