@@ -2,7 +2,7 @@ name: CI
 
 on:
   pull_request:
-    branches: [main]
+    branches: [main, develop]
 
 jobs:
   check:
@@ -24,6 +24,9 @@ jobs:
 
       - name: Lint
         run: npx nx run-many -t lint
+
+      - name: Test
+        run: npx nx run-many -t test
 
       - name: Build
         run: npx nx run-many -t build
