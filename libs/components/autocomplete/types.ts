@@ -1,4 +1,4 @@
-import type { ComponentProps, ReactNode } from 'react'
+import type { ComponentProps } from 'react'
 import type { Combobox } from '@base-ui/react/combobox'
 
 export interface AutocompleteProps extends ComponentProps<typeof Combobox.Root> {

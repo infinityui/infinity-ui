@@ -54,7 +54,7 @@ describe('Field', () => {
 		})
 
 		it('accepts category variants', () => {
-			const { container } = render(
+			render(
 				<>
 					<Field.Hint category="danger" data-testid="danger">Error</Field.Hint>
 					<Field.Hint category="success" data-testid="success">OK</Field.Hint>

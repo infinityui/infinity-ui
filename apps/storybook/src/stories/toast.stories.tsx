@@ -19,7 +19,7 @@ export default meta
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
-	args: { category: 'default', onClose: () => {} },
+	args: { category: 'default', onClose: () => { /* noop */ } },
 	render: (args) => (
 		<Toast {...args}>
 			<Toast.Icon><Info /></Toast.Icon>
@@ -29,7 +29,7 @@ export const Default: Story = {
 }
 
 export const Danger: Story = {
-	args: { category: 'danger', onClose: () => {} },
+	args: { category: 'danger', onClose: () => { /* noop */ } },
 	render: (args) => (
 		<Toast {...args}>
 			<Toast.Icon><Info /></Toast.Icon>
@@ -39,7 +39,7 @@ export const Danger: Story = {
 }
 
 export const Warning: Story = {
-	args: { category: 'warning', onClose: () => {} },
+	args: { category: 'warning', onClose: () => { /* noop */ } },
 	render: (args) => (
 		<Toast {...args}>
 			<Toast.Icon><Info /></Toast.Icon>
@@ -49,7 +49,7 @@ export const Warning: Story = {
 }
 
 export const InfoCategory: Story = {
-	args: { category: 'info', onClose: () => {} },
+	args: { category: 'info', onClose: () => { /* noop */ } },
 	render: (args) => (
 		<Toast {...args}>
 			<Toast.Icon><Info /></Toast.Icon>
@@ -59,7 +59,7 @@ export const InfoCategory: Story = {
 }
 
 export const Success: Story = {
-	args: { category: 'success', onClose: () => {} },
+	args: { category: 'success', onClose: () => { /* noop */ } },
 	render: (args) => (
 		<Toast {...args}>
 			<Toast.Icon><Info /></Toast.Icon>
@@ -71,23 +71,23 @@ export const Success: Story = {
 export const AllCategories: Story = {
 	render: () => (
 		<div className="flex flex-col gap-4">
-			<Toast category="default" onClose={() => {}}>
+			<Toast category="default" onClose={() => { /* noop */ }}>
 				<Toast.Icon><Info /></Toast.Icon>
 				<Toast.Label>Added to Saved List</Toast.Label>
 			</Toast>
-			<Toast category="danger" onClose={() => {}}>
+			<Toast category="danger" onClose={() => { /* noop */ }}>
 				<Toast.Icon><Info /></Toast.Icon>
 				<Toast.Label>Added to Saved List</Toast.Label>
 			</Toast>
-			<Toast category="warning" onClose={() => {}}>
+			<Toast category="warning" onClose={() => { /* noop */ }}>
 				<Toast.Icon><Info /></Toast.Icon>
 				<Toast.Label>Added to Saved List</Toast.Label>
 			</Toast>
-			<Toast category="info" onClose={() => {}}>
+			<Toast category="info" onClose={() => { /* noop */ }}>
 				<Toast.Icon><Info /></Toast.Icon>
 				<Toast.Label>Added to Saved List</Toast.Label>
 			</Toast>
-			<Toast category="success" onClose={() => {}}>
+			<Toast category="success" onClose={() => { /* noop */ }}>
 				<Toast.Icon><Info /></Toast.Icon>
 				<Toast.Label>Added to Saved List</Toast.Label>
 			</Toast>

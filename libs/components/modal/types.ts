@@ -1,4 +1,4 @@
-import type { ComponentProps, ReactNode } from 'react'
+import type { ComponentProps } from 'react'
 import type { Dialog } from '@base-ui/react/dialog'
 
 export interface ModalProps extends ComponentProps<typeof Dialog.Root> {
