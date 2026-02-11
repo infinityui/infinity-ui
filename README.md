@@ -194,7 +194,7 @@ npx nx show projects              # List all projects
 |----------|------|
 | Figma | [Infinity UI — Component Library](https://www.figma.com/design/p3mAmoXnY2WrnNI56TyEwF/Infinity-ui?node-id=5190-533) |
 | Components | [`libs/components/README.md`](libs/components/README.md) |
-| Demo | [Infinity UI Demo] (https://app-infinity-ui.web.app) |
+| Demo | [Infinity UI Demo](https://app-infinity-ui.web.app) |
 ---
 
 ## License
