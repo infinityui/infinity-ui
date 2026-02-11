@@ -7,4 +7,4 @@ export interface SelectProps extends ComponentProps<typeof Select.Root> {
 	className?: string
 }
 
-export interface SelectItemProps extends ComponentProps<typeof Select.Item> {}
+export type SelectItemProps = ComponentProps<typeof Select.Item>

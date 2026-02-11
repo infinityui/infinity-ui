@@ -24,7 +24,7 @@ export const Default: Story = {
 		<Badge {...args}>
 			<Badge.Icon><Check /></Badge.Icon>
 			<Badge.Label>Badge</Badge.Label>
-			<Badge.Close onClose={() => {}} />
+			<Badge.Close onClose={() => { /* noop */ }} />
 		</Badge>
 	),
 }
@@ -35,7 +35,7 @@ export const WithIconAndClose: Story = {
 		<Badge {...args}>
 			<Badge.Icon><Check /></Badge.Icon>
 			<Badge.Label>Badge</Badge.Label>
-			<Badge.Close onClose={() => {}} />
+			<Badge.Close onClose={() => { /* noop */ }} />
 		</Badge>
 	),
 }
@@ -46,7 +46,7 @@ export const Outline: Story = {
 		<Badge {...args}>
 			<Badge.Icon><Check /></Badge.Icon>
 			<Badge.Label>Badge</Badge.Label>
-			<Badge.Close onClose={() => {}} />
+			<Badge.Close onClose={() => { /* noop */ }} />
 		</Badge>
 	),
 }
@@ -57,7 +57,7 @@ export const Success: Story = {
 		<Badge {...args}>
 			<Badge.Icon><Check /></Badge.Icon>
 			<Badge.Label>Badge</Badge.Label>
-			<Badge.Close onClose={() => {}} />
+			<Badge.Close onClose={() => { /* noop */ }} />
 		</Badge>
 	),
 }
@@ -68,7 +68,7 @@ export const Info: Story = {
 		<Badge {...args}>
 			<Badge.Icon><Check /></Badge.Icon>
 			<Badge.Label>Badge</Badge.Label>
-			<Badge.Close onClose={() => {}} />
+			<Badge.Close onClose={() => { /* noop */ }} />
 		</Badge>
 	),
 }
@@ -79,7 +79,7 @@ export const Danger: Story = {
 		<Badge {...args}>
 			<Badge.Icon><Check /></Badge.Icon>
 			<Badge.Label>Badge</Badge.Label>
-			<Badge.Close onClose={() => {}} />
+			<Badge.Close onClose={() => { /* noop */ }} />
 		</Badge>
 	),
 }
@@ -90,7 +90,7 @@ export const Warning: Story = {
 		<Badge {...args}>
 			<Badge.Icon><Check /></Badge.Icon>
 			<Badge.Label>Badge</Badge.Label>
-			<Badge.Close onClose={() => {}} />
+			<Badge.Close onClose={() => { /* noop */ }} />
 		</Badge>
 	),
 }
@@ -101,7 +101,7 @@ export const Neutral: Story = {
 		<Badge {...args}>
 			<Badge.Icon><Check /></Badge.Icon>
 			<Badge.Label>Badge</Badge.Label>
-			<Badge.Close onClose={() => {}} />
+			<Badge.Close onClose={() => { /* noop */ }} />
 		</Badge>
 	),
 }
@@ -112,37 +112,37 @@ export const AllCategories: Story = {
 			<Badge category="outline">
 				<Badge.Icon><Check /></Badge.Icon>
 				<Badge.Label>Badge</Badge.Label>
-				<Badge.Close onClose={() => {}} />
+				<Badge.Close onClose={() => { /* noop */ }} />
 			</Badge>
 			<Badge category="default">
 				<Badge.Icon><Check /></Badge.Icon>
 				<Badge.Label>Badge</Badge.Label>
-				<Badge.Close onClose={() => {}} />
+				<Badge.Close onClose={() => { /* noop */ }} />
 			</Badge>
 			<Badge category="success">
 				<Badge.Icon><Check /></Badge.Icon>
 				<Badge.Label>Badge</Badge.Label>
-				<Badge.Close onClose={() => {}} />
+				<Badge.Close onClose={() => { /* noop */ }} />
 			</Badge>
 			<Badge category="info">
 				<Badge.Icon><Check /></Badge.Icon>
 				<Badge.Label>Badge</Badge.Label>
-				<Badge.Close onClose={() => {}} />
+				<Badge.Close onClose={() => { /* noop */ }} />
 			</Badge>
 			<Badge category="danger">
 				<Badge.Icon><Check /></Badge.Icon>
 				<Badge.Label>Badge</Badge.Label>
-				<Badge.Close onClose={() => {}} />
+				<Badge.Close onClose={() => { /* noop */ }} />
 			</Badge>
 			<Badge category="warning">
 				<Badge.Icon><Check /></Badge.Icon>
 				<Badge.Label>Badge</Badge.Label>
-				<Badge.Close onClose={() => {}} />
+				<Badge.Close onClose={() => { /* noop */ }} />
 			</Badge>
 			<Badge category="neutral">
 				<Badge.Icon><Check /></Badge.Icon>
 				<Badge.Label>Badge</Badge.Label>
-				<Badge.Close onClose={() => {}} />
+				<Badge.Close onClose={() => { /* noop */ }} />
 			</Badge>
 		</div>
 	),

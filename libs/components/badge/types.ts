@@ -6,9 +6,9 @@ export interface BadgeProps
 	extends ComponentProps<'span'>,
 		VariantProps<typeof badgeVariants> {}
 
-export interface BadgeIconProps extends ComponentProps<'span'> {}
+export type BadgeIconProps = ComponentProps<'span'>
 
-export interface BadgeLabelProps extends ComponentProps<'span'> {}
+export type BadgeLabelProps = ComponentProps<'span'>
 
 export interface BadgeCloseProps extends ComponentProps<'button'> {
 	onClose?: () => void

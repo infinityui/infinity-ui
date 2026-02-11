@@ -8,6 +8,6 @@ export interface ToastProps
 	onClose?: () => void
 }
 
-export interface ToastIconProps extends ComponentProps<'span'> {}
+export type ToastIconProps = ComponentProps<'span'>
 
-export interface ToastLabelProps extends ComponentProps<'span'> {}
+export type ToastLabelProps = ComponentProps<'span'>
